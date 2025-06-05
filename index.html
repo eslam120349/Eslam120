@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programmer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif; /* A nice default sans-serif font */
+      }
+      .font-mono-terminal {
+        font-family: 'Courier New', Courier, monospace; /* Classic terminal font */
+      }
+      /* Custom scrollbar for a more modern feel - optional */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1a202c; /* dark-900 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a5568; /* gray-600 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2d3748; /* gray-700 */
+      }
+
+      /* Ensure focused input in terminal has a blinking cursor like effect if browser default isn't prominent enough */
+      /* This is often handled well by default, but can be customized */
+      .terminal-input:focus {
+        /* Example: caret-color: #32CD32; */
+      }
+
+    </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-gray-100">
+    <div id="root"></div>
+    <script>
+      // Tailwind config (optional, for custom fonts if needed beyond CDN defaults)
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Roboto Mono', 'monospace'], // For terminal
+            },
+            colors: {
+              terminalGreen: '#32CD32', // Lime Green
+              terminalBg: '#0D1117', // GitHub Dark Dimmed like
+              terminalHeader: '#161B22',
+            },
+            animation: {
+              pulse: 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
