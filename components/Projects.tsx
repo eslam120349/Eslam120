@@ -13,11 +13,10 @@ const projectsData: Project[] = [
   {
     id: 'project1',
     title: 'My pff portofolio',
-    description: 'A full-featured e-commerce website with product listings, cart functionality, user authentication, and an admin panel. Built with MERN stack.',
-    imageUrl: 'https://picsum.photos/seed/project1/600/400',
+    description: 'its portofolio for graphic designer',
+    imageUrl: 'https://res.cloudinary.com/dc9jmzfbk/image/upload/v1747406484/Screenshot_2025-05-16_092555_bshhaf.png',
     tags: ['HTML', 'Python', 'suberbase', 'bootstrap'],
     liveUrl: 'https://mywep.vercel.app/home',
-    repoUrl: 'https://github.com/eslam120349/mywep',
   },
 
 ];
