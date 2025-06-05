@@ -18,7 +18,14 @@ const projectsData: Project[] = [
     tags: ['HTML', 'Python', 'suberbase', 'bootstrap'],
     liveUrl: 'https://mywep.vercel.app/home',
   },
-
+  {
+    id: 'project2',
+    title: 'add more if u want',
+    description: 'test',
+    imageUrl: 'https://res.cloudinary.com/dc9jmzfbk/image/upload/v1747406484/Screenshot_2025-05-16_092555_bshhaf.png',
+    tags: [],
+    liveUrl: 'https://eslam120.vercel.app/',
+  },
 ];
 
 const Projects: React.FC = () => {

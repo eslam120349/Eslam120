@@ -20,7 +20,7 @@ const skillsData: Skill[] = [
   { id: 'figma', name: 'Figma', level: 70 },
   { id: 'git', name: 'Git & GitHub', level: 85 },
   { id: 'bootstrap', name: 'bootstrap', level: 90 },
-
+  { id: 'add More', name: 'add More', level: 100 },
 ];
 
 const SkillItem: React.FC<{ skill: Skill }> = ({ skill }) => (
