@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
         </p>
         <div className="flex justify-center space-x-6 mb-12">
           <a
-            href="mailto:e.farars12@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=e.farars12@gmail.com&su=Hello&body=I%20want%20to%20connect%20with%20you"
             className="text-gray-400 hover:text-terminalGreen transition-colors duration-150"
             aria-label="Email me"
           >
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
             <GitHubIcon className="w-10 h-10" />
           </a>
           <a
-            href="www.linkedin.com/in/eslam-saeid-9a8458295"
+            href="https://www.linkedin.com/in/eslam-saeid-9a8458295"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-terminalGreen transition-colors duration-150"
