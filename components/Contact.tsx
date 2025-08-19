@@ -28,15 +28,6 @@ const Contact: React.FC = () => {
             <EmailIcon className="w-10 h-10" />
           </a>
           <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-terminalGreen transition-colors duration-150"
-            aria-label="My GitHub profile"
-          >
-            <GitHubIcon className="w-10 h-10" />
-          </a>
-          <a
             href="https://www.linkedin.com/in/eslam-saeid-9a8458295"
             target="_blank"
             rel="noopener noreferrer"
